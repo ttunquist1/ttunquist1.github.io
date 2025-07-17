@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Header CSS */
 header{
     display: flex;
     flex-direction: row;
@@ -12,5 +12,16 @@ header{
 header img{
     margin-right: 15px;
     border-radius: 10px;
-    border: solid navy 5px;
+    border: solid #0a7575 3px;
+}
+
+/* Body CSS */
+
+.main-body{
+  min-height: 500px;
+}
+
+/* Footer CSS */
+footer{
+  background-color: #0a7575;
 }
